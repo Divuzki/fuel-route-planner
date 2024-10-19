@@ -22,7 +22,7 @@
 
 ```sh
 git clone https://github.com/divuzki/FuelRoutePlanner.git
-cd FuelRoutePlanner```
+cd FuelRoutePlanner
 ```
 
 2. **Create and activate a virtual environment**:
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-## Add your [OpenRouteService](https://openrouteservice.org/) API key: # Replace 'YOUR_API_KEY' in views.py with your actual API key. str
+## Add your [OpenRouteService](https://openrouteservice.org/) API key to .env
 
 # Run the development server:
 

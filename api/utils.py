@@ -17,7 +17,6 @@ def read_fuel_prices(file_path):
     return fuel_prices
 
 def calculate_fuel_stops(route, fuel_prices, max_range=500, mpg=10):
-    # total_distance = route['features'][0]['properties']['segments'][0]['distance'] / 1609.34  # Convert meters to miles
     stops = []
     total_cost = 0
     remaining_range = max_range

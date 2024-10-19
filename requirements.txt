@@ -2,4 +2,4 @@ django==3.2.23
 djangorestframework
 requests
 gunicorn
-python-dotenv
+python-dotenv # for envs

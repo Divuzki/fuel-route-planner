@@ -9,6 +9,7 @@ from .utils import read_fuel_prices, calculate_fuel_stops
 
 class RouteView(APIView):
     def get(self, request):
+        # ?start & finish
         start_address = request.query_params.get("start")
         finish_address = request.query_params.get("finish")
 
