@@ -1,5 +1,4 @@
 import csv
-import math
 
 def read_fuel_prices(file_path):
     fuel_prices = []
